@@ -36,7 +36,7 @@ export default function Post (all) {
 
   return (
     <Layout lang={pageContext.lang}>
-      <div className='wrapper'>
+      <main className='wrapper' role='main'>
         <div className='row row--full'>
 
           <div className='column column--center medium-12 large-12'>
@@ -63,7 +63,7 @@ export default function Post (all) {
           </div>
 
         </div>
-      </div>
+      </main>
     </Layout>
   )
 }

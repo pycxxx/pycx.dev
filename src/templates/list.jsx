@@ -26,7 +26,7 @@ const List = ({ data, pageContext }) => {
 
   return (
     <Layout lang={pageContext.lang}>
-      <div className='wrapper'>
+      <main className='wrapper' role='main'>
 
         <div className='row row--full'>
           <div className='post-list'>
@@ -40,7 +40,7 @@ const List = ({ data, pageContext }) => {
           <Pagination pageContext={pageContext} />
         </div>
 
-      </div>
+      </main>
     </Layout>
   )
 }

@@ -54,14 +54,14 @@ export default function Sidebar () {
           <div className='off-canvas-content'>
 
             <div className='column small-12 large-12'>
-              <nav className='navigation'>
+              <nav className='navigation' role='navigation'>
                 <ul className='list-bare text-center'>
                   {filteredPages.map(page => (
                     <li key={page.node.id}>
-                      <Link className='page-link' to={page.node.fields.path}>{page.node.frontmatter.title}</Link>
+                      <Link className='page-link' title={page.node.frontmatter.title} to={page.node.fields.path}>{page.node.frontmatter.title}</Link>
                     </li>
                   ))}
-                  <li><Link className='subscribe-button icon-feed' to='/feed.xml'>RSS</Link></li>
+                  <li><Link title="RSS Feed" className='subscribe-button icon-feed' to='/feed.xml'>RSS</Link></li>
                 </ul>
               </nav>
             </div>
@@ -70,7 +70,7 @@ export default function Sidebar () {
               <ul className='social-nav social-icons'>
                 {site.github && (
                   <li>
-                    <Link to={`http://www.github.com/${site.github}`} target='_blank' rel='noreferrer'>
+                    <Link title="GitHub" to={`http://www.github.com/${site.github}`} target='_blank' rel='noreferrer'>
                       <span data-icon='ei-sc-github' data-size='s' />
                     </Link>
                   </li>
@@ -78,7 +78,7 @@ export default function Sidebar () {
 
                 {site.twitter && (
                   <li>
-                    <Link to={`http://www.twitter.com/${site.twitter}`} target='_blank' rel='noreferrer'>
+                    <Link title="Twitter" to={`http://www.twitter.com/${site.twitter}`} target='_blank' rel='noreferrer'>
                       <span data-icon='ei-sc-twitter' data-size='s' />
                     </Link>
                   </li>
@@ -86,14 +86,14 @@ export default function Sidebar () {
 
                 {site.email && (
                   <li>
-                    <Link to={`mailto:${site.email}`} target='_blank' rel='noreferrer'>
+                    <Link title="Email" to={`mailto:${site.email}`} target='_blank' rel='noreferrer'>
                       <span data-icon='ei-envelope' data-size='s' />
                     </Link>
                   </li>
                 )}
 
                 <li>
-                  <Link className='toggle-search-button' to='#'>
+                  <Link title="Search" className='toggle-search-button' to='#'>
                     <span data-icon='ei-search' data-size='s' />
                   </Link>
                 </li>
