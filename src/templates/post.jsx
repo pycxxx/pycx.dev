@@ -29,7 +29,8 @@ export default function Post (all) {
   const { data, pageContext, children } = all
   const { mdx } = data
   const { frontmatter, fields } = mdx
-  const { title, date, publishedAt, featuredImage, tags = [] } = frontmatter
+  const { title, date, publishedAt, featuredImage } = frontmatter
+  const tags = frontmatter.tags || []
   const { path } = fields
   const image = getImage(featuredImage)
 
