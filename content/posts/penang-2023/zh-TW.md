@@ -1,5 +1,6 @@
 ---
 title: 檳城 2023
+description: 檳城旅遊紀錄
 date: '2023-09-09T09:50:28.879Z'
 featuredImage: ./featured.jpg
 category: Travel
