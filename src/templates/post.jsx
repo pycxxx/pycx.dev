@@ -17,7 +17,7 @@ export const Head = ({ data, pageContext }) => {
       canonicalUrl={getFullUrl(site.siteUrl, post.fields.canonicalPath)}>
       <meta itemProp='og:image' content={getFullUrl(site.siteUrl, post.path)} />
       <meta property='og:type' content='article' />
-      <meta property='article:published_time' content={post.publishedAt} />
+      <meta property='article:published_time' content={post.frontmatter.publishedAt} />
       {post.tags?.map(tag => (
         <meta property='article:tag' content={tag} key={tag} />
       ))}
