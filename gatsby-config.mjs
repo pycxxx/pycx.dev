@@ -79,7 +79,7 @@ function generateFeedOptions(lang) {
           date: node.frontmatter.date,
           url: site.siteMetadata.siteUrl + node.fields.path,
           guid: site.siteMetadata.siteUrl + node.fields.path,
-          custom_elements: [{ "content:encoded": node.html }],
+          custom_elements: [{ "content:encoded": node.excerpt }],
         })
       })
     },
@@ -91,7 +91,6 @@ function generateFeedOptions(lang) {
         ) {
           nodes {
             excerpt
-            html
             fields {
               slug
             }
