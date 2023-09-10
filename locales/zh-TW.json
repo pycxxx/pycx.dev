@@ -1,0 +1,15 @@
+{
+    "common": {
+        "htmlLang": "zh-Hant",
+        "site": {
+            "name": "PYC",
+            "description": "就一個軟體工程師"
+        },
+        "list": {
+            "title": "$t(site.name)"
+        },
+        "post": {
+            "title": "{{ title }} | $t(site.name)"
+        }
+    }
+}

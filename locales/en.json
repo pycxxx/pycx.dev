@@ -1,0 +1,15 @@
+{
+    "common": {
+        "htmlLang": "en",
+        "site": {
+            "name": "PYC",
+            "description": "I'm just a software developer"
+        },
+        "list": {
+            "title": "$t(site.name)"
+        },
+        "post": {
+            "title": "{{ title }} | $t(site.name)"
+        }
+    }
+}
