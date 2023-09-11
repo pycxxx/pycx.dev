@@ -40,7 +40,7 @@ export default function Post (all) {
         <div className='row row--full'>
 
           <div className='column column--center medium-12 large-12'>
-            <GatsbyImage className='grey-bg CoverImage FlexEmbed FlexEmbed--16by9' image={image} alt="Featured image of the post" />
+            <GatsbyImage className='grey-bg CoverImage FlexEmbed FlexEmbed--16by9' image={image} loading="eager" alt="Featured image of the post" />
           </div>
 
           <div className='column column--center medium-12 large-10'>
