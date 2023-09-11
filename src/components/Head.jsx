@@ -1,19 +1,7 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
 import i18next from '../i18n'
 
 export default function Head ({ title, description, canonicalUrl, lang, children }) {
-  const { site } = useStaticQuery(
-    graphql`
-          query {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-          }
-        `
-  )
   const t = i18next.getFixedT(lang)
 
   return (
@@ -29,9 +17,6 @@ export default function Head ({ title, description, canonicalUrl, lang, children
 
       {children}
       {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
-      <script>
-        window.base_url = {JSON.stringify(site.siteMetadata.siteUrl)};
-      </script>
     </>
   )
 }
