@@ -67,6 +67,14 @@ export default {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'G-D5C0ES3SF1',
+        includeInDevelopment: false,
+        enableWebVitalsTracking: true,
+      },
+    },
   ]
 }
 
