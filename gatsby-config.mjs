@@ -43,6 +43,15 @@ export default {
               maxWidth: 600,
             },
           },
+          {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              width: 600,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-responsive-iframe',
+          },
         ],
       }
     },
