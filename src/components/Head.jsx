@@ -1,7 +1,8 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
+import i18next from '../i18n'
 
-export default function Head ({ title, description, canonicalUrl, children }) {
+export default function Head ({ title, description, canonicalUrl, lang, children }) {
   const { site } = useStaticQuery(
     graphql`
           query {
@@ -13,9 +14,11 @@ export default function Head ({ title, description, canonicalUrl, children }) {
           }
         `
   )
+  const t = i18next.getFixedT(lang)
 
   return (
     <>
+      <html lang={t('htmlLang')} />
       <title>{title}</title>
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />

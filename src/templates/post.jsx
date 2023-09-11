@@ -14,7 +14,8 @@ export const Head = ({ data, pageContext }) => {
     <HeadBase
       title={t('post.title', { title: post.frontmatter.title })}
       description={post.frontmatter.description}
-      canonicalUrl={getFullUrl(site.siteUrl, post.fields.canonicalPath)}>
+      canonicalUrl={getFullUrl(site.siteUrl, post.fields.canonicalPath)}
+      lang={pageContext.lang}>
       <meta itemProp='og:image' content={getFullUrl(site.siteUrl, post.path)} />
       <meta property='og:type' content='article' />
       <meta property='article:published_time' content={post.frontmatter.publishedAt} />

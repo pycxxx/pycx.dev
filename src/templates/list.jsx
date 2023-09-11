@@ -15,7 +15,8 @@ export const Head = ({ data, pageContext }) => {
     <HeadBase
       title={t('list.title')}
       description={t('site.description')}
-      canonicalUrl={getFullUrl(site.siteUrl, pageContext.canonicalPath)}>
+      canonicalUrl={getFullUrl(site.siteUrl, pageContext.canonicalPath)}
+      lang={pageContext.lang}>
       <meta property='og:type' content='website' />
     </HeadBase>
   )
