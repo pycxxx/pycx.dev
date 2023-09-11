@@ -2,6 +2,9 @@ import React from 'react'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import SearchForm from './SearchForm'
 import { useI18n } from '../i18n'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Sidebar () {
   const { t, lang } = useI18n()
@@ -71,7 +74,7 @@ export default function Sidebar () {
                 {site.github && (
                   <li>
                     <Link title="GitHub" to={`http://www.github.com/${site.github}`} target='_blank' rel='noreferrer'>
-                      <span data-icon='ei-sc-github' data-size='s' />
+                      <FontAwesomeIcon icon={faGithub} />
                     </Link>
                   </li>
                 )}
@@ -79,7 +82,7 @@ export default function Sidebar () {
                 {site.twitter && (
                   <li>
                     <Link title="Twitter" to={`http://www.twitter.com/${site.twitter}`} target='_blank' rel='noreferrer'>
-                      <span data-icon='ei-sc-twitter' data-size='s' />
+                      <FontAwesomeIcon icon={faTwitter} />
                     </Link>
                   </li>
                 )}
@@ -87,16 +90,10 @@ export default function Sidebar () {
                 {site.email && (
                   <li>
                     <Link title="Email" to={`mailto:${site.email}`} target='_blank' rel='noreferrer'>
-                      <span data-icon='ei-envelope' data-size='s' />
+                      <FontAwesomeIcon icon={faEnvelope} />
                     </Link>
                   </li>
                 )}
-
-                <li>
-                  <Link title="Search" className='toggle-search-button' to='#'>
-                    <span data-icon='ei-search' data-size='s' />
-                  </Link>
-                </li>
               </ul>
             </div>
 

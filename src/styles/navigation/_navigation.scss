@@ -44,17 +44,17 @@
   margin-bottom: $line-height__medium;
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
 
-  .icon {
-    vertical-align: -moz-middle-with-baseline;
-    vertical-align: -webkit-baseline-middle;
-    fill: $color__base;
-    transition: $base-transition-speed;
+  li {
+    color: $color__base;
 
-    &:hover { fill: $color__base--hover; }
+    &:hover { color: $color__base--hover; }
   }
-
-  li { display: inline-block; }
 
   @media #{$large-down} { text-align: center; }
 }
