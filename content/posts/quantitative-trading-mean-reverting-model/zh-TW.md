@@ -69,7 +69,7 @@ dailypnl=dailypnl[np.logical_and(df.index >= startDate, df.index <= endDate)]
 接著跟之前一樣，先算 Daily 的 Sharpe Ratio，再轉換成 Annualized Sharpe Ratio。
 
 ```python
-sharpeRatio=np.sqrt(252)*np.mean(dailypnl)/np.std(dailypnl)
+sharpeRatio = np.sqrt(252) * np.mean(dailypnl) / np.std(dailypnl)
 ```
 
 扣掉交易成本的計算方式還滿好理解的，很直白的扣掉了交易成本
@@ -77,3 +77,5 @@ sharpeRatio=np.sqrt(252)*np.mean(dailypnl)/np.std(dailypnl)
 ```python
 dailypnlminustcost = dailypnl - (np.nansum(abs(weights - np.array(pd.DataFrame(weights).shift())), axis=1) * onewaytcost)
 ```
+
+範例到這邊就結束了，但是 august07 文章內還有介紹槓桿等一些延伸的內容，等書讀完了再回頭來看看。
