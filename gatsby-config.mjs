@@ -52,6 +52,12 @@ export default {
           {
             resolve: 'gatsby-remark-responsive-iframe',
           },
+          {
+            resolve: 'gatsby-remark-katex',
+          },
+          {
+            resolve: 'gatsby-remark-prismjs',
+          },
         ],
       }
     },

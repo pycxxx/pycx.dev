@@ -30,7 +30,7 @@ export default function Post (all) {
   const { data, pageContext, children } = all
   const { mdx } = data
   const { frontmatter, fields } = mdx
-  const { title, date, publishedAt, featuredImage } = frontmatter
+  const { title, date, publishedAt, featuredImage, featuredImageAuthor } = frontmatter
   const tags = frontmatter.tags || []
   const { path } = fields
   const image = getImage(featuredImage)
@@ -41,13 +41,21 @@ export default function Post (all) {
         <div className='row row--full'>
 
           <div className='column column--center medium-12 large-12'>
-            <GatsbyImage
-              className='grey-bg CoverImage FlexEmbed FlexEmbed--16by9'
-              image={image}
-              imgStyle={{ transition: 'none' }}
-              loading="eager"
-              alt="Featured image of the post"
-            />
+            <div className='post__featured-image'>
+              <GatsbyImage
+                className='grey-bg CoverImage FlexEmbed FlexEmbed--16by9'
+                image={image}
+                imgStyle={{ transition: 'none' }}
+                loading="eager"
+                alt="Featured image of the post"
+              />
+
+              {featuredImageAuthor.name && featuredImageAuthor.url && (
+                <div className='post__featured-image-author'>
+                  <a href={featuredImageAuthor.url}>{featuredImageAuthor.name}</a>
+                </div>
+              )}
+            </div>
           </div>
 
           <div className='column column--center medium-12 large-10'>
@@ -97,6 +105,10 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData(width: 2400)
           }
+        }
+        featuredImageAuthor {
+          name
+          url
         }
       }
     }

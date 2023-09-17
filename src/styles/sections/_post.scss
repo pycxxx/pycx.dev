@@ -42,4 +42,18 @@
   }
 
   &-content { margin-top: $line-height__medium; }
+
+  &__featured-image {
+    position: relative;
+  }
+
+  &__featured-image-author {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    font-size: $font-size__small;
+    line-height: $line-height__small;
+    padding: 0 .5rem;
+    background-color: rgba(255, 255, 255, .8);
+  }
 }

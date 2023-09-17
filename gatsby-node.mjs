@@ -69,6 +69,11 @@ export const createSchemaCustomization = ({ actions }) => {
       canonicalPath: String
     }
 
+    type FeaturedImageAuthor {
+      name: String
+      url: String
+    }
+
     type Frontmatter {
       title: String
       description: String
@@ -76,6 +81,7 @@ export const createSchemaCustomization = ({ actions }) => {
       featured: Boolean
       tags: [String]
       featuredImage: File @fileByRelativePath
+      featuredImageAuthor: FeaturedImageAuthor
     }
 
     type Mdx implements Node {
