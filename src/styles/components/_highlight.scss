@@ -1,0 +1,18 @@
+.gatsby-highlight {
+  font-size: $font-size__small;
+  line-height: $line-height__small;
+
+  pre {
+    padding: $line-height__small;
+  }
+
+  .line-numbers-rows {
+    padding: 1em 0 1em 1em;
+  }
+
+  pre[class*="language-"].line-numbers {
+    padding-left: 4em;
+    font-size: $font-size__small;
+    line-height: $line-height__small;
+  }
+}

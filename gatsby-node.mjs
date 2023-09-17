@@ -172,7 +172,7 @@ async function createListPages ({ graphql, actions }) {
       query {
         allMdx(
           filter: {fields: {pageType: {eq: "post"}}}
-          sort: {frontmatter: {date: ASC}}
+          sort: {frontmatter: {date: DESC}}
         ) {
           edges {
             node {
