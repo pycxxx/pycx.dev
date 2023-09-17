@@ -50,7 +50,7 @@ export default function Post (all) {
                 alt="Featured image of the post"
               />
 
-              {featuredImageAuthor.name && featuredImageAuthor.url && (
+              {featuredImageAuthor?.name && featuredImageAuthor?.url && (
                 <div className='post__featured-image-author'>
                   <a href={featuredImageAuthor.url}>{featuredImageAuthor.name}</a>
                 </div>
