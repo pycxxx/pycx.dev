@@ -1,13 +1,14 @@
 .gatsby-highlight {
   font-size: $font-size__small;
   line-height: $line-height__small;
+  margin-bottom: $line-height__medium;
 
   pre {
     padding: $line-height__small;
   }
 
   .line-numbers-rows {
-    padding: 1em 0 1em 1em;
+    padding: $line-height__small 0 1em 1em;
   }
 
   pre[class*="language-"].line-numbers {
@@ -15,4 +16,9 @@
     font-size: $font-size__small;
     line-height: $line-height__small;
   }
+}
+
+.language-text {
+  font-size: $font-size__small !important;
+  line-height: $line-height__small !important;
 }
