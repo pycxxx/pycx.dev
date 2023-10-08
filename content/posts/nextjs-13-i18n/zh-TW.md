@@ -175,7 +175,7 @@ export const initI18next = async (lng: string, ns?: string | string[]) => {
   i18nCache().set(i18nInstance)
 }
 
-export function useTranslation(ns: string | string[] | undefined, options: { keyPrefix?: string } = {}) {
+export function getTranslation(ns: string | string[] | undefined, options: { keyPrefix?: string } = {}) {
   const i18nInstance = i18nCache().get()
   if (!i18nInstance) {
     throw new Error('i18n is not initialized')
@@ -196,4 +196,41 @@ const RootLayout: FC<PropsWithChildren<{ params: { lang: string } }>> = ({ child
 }
 ```
 
-需要翻譯時時從 `src/i18n/server.ts` import `useTranslation` 來用。
+需要翻譯時時從 `src/i18n/server.ts` import `getTranslation` 來用。
+
+## `next/link`
+
+以前 `next/link` 有 `locale` prop，在多語系的時候滿方便的，但在 App Router 下這個 prop 被拿掉了。所以只能自己處理。
+
+```ts
+'use client'
+
+import { usePathname } from 'next/navigation'
+import NextLink, { LinkProps as NextLinkProps } from 'next/link'
+import { useTranslation } from 'react-i18next'
+import { PropsWithChildren } from 'react'
+
+export interface LinkProps extends Omit<NextLinkProps, 'href'> {
+  locale?: string
+  href: string
+}
+
+export default function Link({ locale, href, ...restProps }: PropsWithChildren<LinkProps>) {
+  const currentPathname = usePathname().split('/').slice(1).join('/')
+  const { i18n } = useTranslation()
+  const isExternalLink = /^.+:\/\//.test(href)
+
+  if (isExternalLink) {
+    return <NextLink href={href} {...restProps} />
+  }
+
+  if (!locale) {
+    locale = i18n.language
+  }
+
+  const url = new URL(href, `http://dummy${currentPathname}`)
+  const linkPathname = `/${locale}${url.pathname}`
+
+  return <NextLink href={linkPathname} {...restProps} />
+}
+```
