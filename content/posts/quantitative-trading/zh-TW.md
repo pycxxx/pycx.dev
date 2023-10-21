@@ -40,4 +40,4 @@ tags:
 
 ## 讀完之後的下一步
 
-雖然知道書中的技術可以直接拿來應用，但總感覺光閱讀這本書沒有辦法很好的掌握書中介紹的技術。像是 Cointegration，書中在講 Mean-Reverting Strategy 的時候有提到這個概念，但也只是帶過去而已。可以理解講解這些東西不是這本書的重點，但讀者數學底子不夠的話看完後肯定都會跟我一樣存在不少疑惑。目前看起來大部分知識可以在計量經濟的課程中補齊，所以下一步會是先去學習一下計量經濟。[Bruce Hansen's Econometrics](https://users.ssc.wisc.edu/~bhansen/econometrics/)
+雖然知道書中的技術可以直接拿來應用，但總感覺光閱讀這本書沒有辦法很好的掌握書中介紹的技術。像是 Cointegration，書中在講 Mean-Reverting Strategy 的時候有提到這個概念，但也只是帶過去而已。可以理解講解這些東西不是這本書的重點，但讀者數學底子不夠的話看完後肯定都會跟我一樣存在不少疑惑。目前看起來大部分知識可以在計量經濟的課程中補齊，所以下一步會是先去學習一下計量經濟。目前看了一點 [Bruce Hansen's Econometrics](https://users.ssc.wisc.edu/~bhansen/econometrics/) 以及 [计量经济学入门教程](https://www.youtube.com/playlist?list=PLCEzQd4LfAhLTuJa89TPuy2nxeNF_GNVF)，前面部分跟臺北大學經濟系的高等統計、迴歸分析內容有大量重疊，所以我想預備知識應該不需要太多。
