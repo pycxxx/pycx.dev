@@ -16,7 +16,7 @@ tags:
 書上對策略的說明過於簡略，提供的文章網址也是錯誤的，書中提到的文章是 [What Happened To The Quants
 In August 2007?](/files/what_happened_to_the_quants_in_august_2007.pdf)。
 
-策略是空前一天的股價贏過市場平均的股票，多前一天股價低於市場平均的股票，就是在賭股價會均值回歸。
+策略是空前一天的股價贏過市場平均的股票，多前一天股價低於市場平均的股票，就是在賭股價會均值回歸。（後面章節會說明如何檢測均值回歸）
 
 $$$
 w_{it} = - \frac{1}{N} (R_{it-k} - R_{mt-k}), R_{mt-k} \equiv \frac{1}{N} \sum_{i=1}^{N} R_{it-k}
