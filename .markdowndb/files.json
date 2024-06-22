@@ -1,0 +1,353 @@
+[
+  {
+    "_id": "cbe195e31718e635901f87a74edc941cdab5c299",
+    "file_path": "content/bigquery-and-dataflow/index.mdx",
+    "extension": "mdx",
+    "url_path": "bigquery-and-dataflow",
+    "filetype": null,
+    "metadata": {
+      "title": "Podcast 資料處理 - BigQuery、Dataflow",
+      "date": "2024-06-05T16:57:37.520Z",
+      "tags": [
+        "podcast",
+        "tech"
+      ],
+      "excerpt": "asdasd",
+      "draft": true,
+      "tasks": []
+    },
+    "tags": [
+      "podcast",
+      "tech"
+    ],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "89a313a2e5bf929e6f4b0ea01c887aabb0f39672",
+    "file_path": "content/podcast/index.mdx",
+    "extension": "mdx",
+    "url_path": "podcast",
+    "filetype": null,
+    "metadata": {
+      "title": "Podcast",
+      "date": "2024-06-22T12:17:49.614Z",
+      "tags": [
+        "podcast",
+        "tech"
+      ],
+      "excerpt": "把對過去工作中對 Podcast 的理解記錄下來",
+      "tasks": []
+    },
+    "tags": [
+      "podcast",
+      "tech"
+    ],
+    "links": [
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.macromicro.me/",
+        "toRaw": "https://www.macromicro.me/",
+        "text": "財經 M 平方",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://statementdog.com/blog",
+        "toRaw": "https://statementdog.com/blog",
+        "text": "財報狗",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.macromicro.me/feed",
+        "toRaw": "https://www.macromicro.me/feed",
+        "text": "https://www.macromicro.me/feed",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://blog.statementdog.com/blog/feed",
+        "toRaw": "https://blog.statementdog.com/blog/feed",
+        "text": "https://blog.statementdog.com/blog/feed",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.macromicro.me/feed",
+        "toRaw": "https://www.macromicro.me/feed",
+        "text": "財經 M 平方的 RSS Feed",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://podcastindex.org/",
+        "toRaw": "https://podcastindex.org/",
+        "text": "The Podcast Index",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://help.apple.com/itc/podcasts_connect/#/itcb54353390",
+        "toRaw": "https://help.apple.com/itc/podcasts_connect/#/itcb54353390",
+        "text": "文件",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "podcast/iab.com",
+        "toRaw": "iab.com",
+        "text": "iab",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://iabtechlab.com/standards/podcast-measurement-guidelines/",
+        "toRaw": "https://iabtechlab.com/standards/podcast-measurement-guidelines/",
+        "text": "指引",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://chartable.com/",
+        "toRaw": "https://chartable.com/",
+        "text": "Chartable",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.w3.org/TR/websub/",
+        "toRaw": "https://www.w3.org/TR/websub/",
+        "text": "WebSub",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://pubsubhubbub.appspot.com/",
+        "toRaw": "https://pubsubhubbub.appspot.com/",
+        "text": "PubSubHubbub Hub",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.w3.org/TR/websub/#x4-discovery",
+        "toRaw": "https://www.w3.org/TR/websub/#x4-discovery",
+        "text": "Discovery",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.w3.org/TR/websub/#subscribing-and-unsubscribing",
+        "toRaw": "https://www.w3.org/TR/websub/#subscribing-and-unsubscribing",
+        "text": "Subscribing and Unsubscribing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.w3.org/TR/websub/#x7-content-distribution",
+        "toRaw": "https://www.w3.org/TR/websub/#x7-content-distribution",
+        "text": "Content Distribution",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://podcastindex.org/",
+        "toRaw": "https://podcastindex.org/",
+        "text": "The Podcast Index",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.rssboard.org/rss-profile",
+        "toRaw": "https://www.rssboard.org/rss-profile",
+        "text": "RSS 2.0",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://help.apple.com/itc/podcasts_connect/#/itcb54353390",
+        "toRaw": "https://help.apple.com/itc/podcasts_connect/#/itcb54353390",
+        "text": "Apple Podcasts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://support.google.com/podcast-publishers/answer/9889544?hl=en",
+        "toRaw": "https://support.google.com/podcast-publishers/answer/9889544?hl=en",
+        "text": "Google Podcasts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://www.dublincore.org/specifications/dublin-core/dc-xml-guidelines/",
+        "toRaw": "https://www.dublincore.org/specifications/dublin-core/dc-xml-guidelines/",
+        "text": "Dublin Core",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://podcasting2.org/podcast-namespace",
+        "toRaw": "https://podcasting2.org/podcast-namespace",
+        "text": "Podcast Namespace",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://podba.se/validate/",
+        "toRaw": "https://podba.se/validate/",
+        "text": "Podbase Podcast Validator",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://castfeedvalidator.com/",
+        "toRaw": "https://castfeedvalidator.com/",
+        "text": "Cast Feed Validator",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://zonble.github.io/understanding_audio_files",
+        "toRaw": "https://zonble.github.io/understanding_audio_files",
+        "text": "認識音檔",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://aws.amazon.com/tw/blogs/media/combining-dynamic-ad-insertion-and-a-b-watermarking/",
+        "toRaw": "https://aws.amazon.com/tw/blogs/media/combining-dynamic-ad-insertion-and-a-b-watermarking/",
+        "text": "Combining dynamic ad insertion and A/B watermarking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "https://bitmovin.com/csai-vs-ssai-client-side-server-side-ad-insertion",
+        "toRaw": "https://bitmovin.com/csai-vs-ssai-client-side-server-side-ad-insertion",
+        "text": "CSAI vs SSAI: Client-Side Ad Insertion and Server-Side Ad Insertion Explained",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "podcast/overview.jpg",
+        "toRaw": "./overview.jpg",
+        "text": "",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "podcast/overview-spotify.jpg",
+        "toRaw": "./overview-spotify.jpg",
+        "text": "",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "podcast/rss-feed-processing-sequence-diagram.png",
+        "toRaw": "./rss-feed-processing-sequence-diagram.png",
+        "text": "",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "podcast/websub.png",
+        "toRaw": "./websub.png",
+        "text": "",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "podcast/index.mdx",
+        "to": "podcast/websub-subscriber.png",
+        "toRaw": "./websub-subscriber.png",
+        "text": "",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "a1f3f2629a5f21a41003c2a3bd8db9cd77a24472",
+    "file_path": "content/podcast/overview-spotify.jpg",
+    "extension": "jpg",
+    "url_path": "podcast/overview-spotify.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "7f9367983b0e33ab7995e5fb01889cf1b8bbf95b",
+    "file_path": "content/podcast/overview.jpg",
+    "extension": "jpg",
+    "url_path": "podcast/overview.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "6847693af5ae7bf8373f58e386c8f7009ef319c6",
+    "file_path": "content/podcast/rss-feed-processing-sequence-diagram.png",
+    "extension": "png",
+    "url_path": "podcast/rss-feed-processing-sequence-diagram.png",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "9382f35d302ab8be097bdf0d35eb524d9e402b7b",
+    "file_path": "content/podcast/websub-subscriber.png",
+    "extension": "png",
+    "url_path": "podcast/websub-subscriber.png",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "bbeac738d0d5eb1ef9d8e9f9cfa993383e9c2225",
+    "file_path": "content/podcast/websub.png",
+    "extension": "png",
+    "url_path": "podcast/websub.png",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  }
+]
