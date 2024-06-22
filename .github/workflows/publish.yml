@@ -16,6 +16,10 @@ jobs:
           cache: 'yarn'
       - run: yarn install
       - run: yarn build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gh-pages
+          path: out
 
   deploy:
     runs-on: ubuntu-latest
