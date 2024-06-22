@@ -1,5 +1,3 @@
-import MillionLint from '@million/lint'
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
@@ -7,4 +5,4 @@ const nextConfig = {
   trailingSlash: true,
 }
 
-export default MillionLint.next({ rsc: true })(nextConfig)
+export default nextConfig
