@@ -1,26 +1,125 @@
 [
   {
+    "_id": "3cc3bd738a5c458bfff88455e71cf78b0b45c6ff",
+    "file_path": "content/bigquery-and-dataflow/dataflow.png",
+    "extension": "png",
+    "url_path": "bigquery-and-dataflow/dataflow.png",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
     "_id": "cbe195e31718e635901f87a74edc941cdab5c299",
     "file_path": "content/bigquery-and-dataflow/index.mdx",
     "extension": "mdx",
     "url_path": "bigquery-and-dataflow",
     "filetype": null,
     "metadata": {
-      "title": "Podcast 資料處理 - BigQuery、Dataflow",
-      "date": "2024-06-05T16:57:37.520Z",
+      "title": "Podcast 資料分析處理 - BigQuery、Dataflow",
+      "date": "2024-06-23T10:59:11.480Z",
       "tags": [
         "podcast",
         "tech"
       ],
-      "excerpt": "asdasd",
-      "draft": true,
+      "excerpt": "紀錄過去在處理 Podcast 資料上遇到的問題、解決問題的方式",
       "tasks": []
     },
     "tags": [
       "podcast",
       "tech"
     ],
-    "links": [],
+    "links": [
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "http://localhost:3000/posts/podcast/",
+        "toRaw": "http://localhost:3000/posts/podcast/",
+        "text": "Podcast 產業介紹",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://zh.wikipedia.org/zh-tw/%E5%88%97%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93",
+        "toRaw": "https://zh.wikipedia.org/zh-tw/%E5%88%97%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93",
+        "text": "Wiki 的說明淺顯易懂",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://cloud.google.com/bigquery/docs/data-manipulation-language#limitations",
+        "toRaw": "https://cloud.google.com/bigquery/docs/data-manipulation-language#limitations",
+        "text": "限制",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://cloud.google.com/bigquery/docs/querying-wildcard-tables",
+        "toRaw": "https://cloud.google.com/bigquery/docs/querying-wildcard-tables",
+        "text": "Wildcard Table",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://dqyuan.top/2018/08/22/hyperloglog.html",
+        "toRaw": "https://dqyuan.top/2018/08/22/hyperloglog.html",
+        "text": "探索HyperLogLog算法（含Java实现）",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://iabtechlab.com/standards/podcast-measurement-guidelines/",
+        "toRaw": "https://iabtechlab.com/standards/podcast-measurement-guidelines/",
+        "text": "iab 指引",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://pavankumarkattamuri.medium.com/windowing-in-cloud-dataflow-fixed-sliding-session-becda3b12bbd",
+        "toRaw": "https://pavankumarkattamuri.medium.com/windowing-in-cloud-dataflow-fixed-sliding-session-becda3b12bbd",
+        "text": "\"Window\"",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://cloud.google.com/dataflow/docs/guides/job-graph",
+        "toRaw": "https://cloud.google.com/dataflow/docs/guides/job-graph",
+        "text": "",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://www.geeksforgeeks.org/star-schema-in-data-warehouse-modeling/",
+        "toRaw": "https://www.geeksforgeeks.org/star-schema-in-data-warehouse-modeling/",
+        "text": "Star Schema in Data Warehouse modeling",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "https://dqyuan.top/2018/08/22/hyperloglog.html",
+        "toRaw": "https://dqyuan.top/2018/08/22/hyperloglog.html",
+        "text": "探索HyperLogLog算法（含Java实现）",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "bigquery-and-dataflow/index.mdx",
+        "to": "bigquery-and-dataflow/dataflow.png",
+        "toRaw": "./dataflow.png",
+        "text": "",
+        "embed": true,
+        "internal": true
+      }
+    ],
     "tasks": []
   },
   {
