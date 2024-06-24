@@ -4,7 +4,9 @@ const images: { [k: string]: StaticImageData } = {}
 images['bigquery-and-dataflow/dataflow.png'] = require('@content/bigquery-and-dataflow/dataflow.png')
 images['podcast/overview-spotify.jpg'] = require('@content/podcast/overview-spotify.jpg')
 images['podcast/overview.jpg'] = require('@content/podcast/overview.jpg')
-images['podcast/rss-feed-processing-sequence-diagram.png'] = require('@content/podcast/rss-feed-processing-sequence-diagram.png')
+images[
+  'podcast/rss-feed-processing-sequence-diagram.png'
+] = require('@content/podcast/rss-feed-processing-sequence-diagram.png')
 images['podcast/websub-subscriber.png'] = require('@content/podcast/websub-subscriber.png')
 images['podcast/websub.png'] = require('@content/podcast/websub.png')
 export default images
