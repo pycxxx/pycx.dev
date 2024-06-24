@@ -123,6 +123,72 @@
     "tasks": []
   },
   {
+    "_id": "586a5bb9c8bd6a1de6f02cffd9ff93ed70a58044",
+    "file_path": "content/cjk-web-font/index.mdx",
+    "extension": "mdx",
+    "url_path": "cjk-web-font",
+    "filetype": null,
+    "metadata": {
+      "title": "中日韓網頁字型",
+      "date": "2024-06-23T11:33:51.185Z",
+      "tags": [
+        "webfont",
+        "tech",
+        "fontend"
+      ],
+      "excerpt": "介紹一下目前 web font subset 技術",
+      "tasks": []
+    },
+    "tags": [
+      "webfont",
+      "tech",
+      "fontend"
+    ],
+    "links": [
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://github.com/fonttools/fonttools",
+        "toRaw": "https://github.com/fonttools/fonttools",
+        "text": "fonttools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://web.archive.org/web/20231206043303/https://developers.googleblog.com/2018/04/google-fonts-launches-korean-support.html",
+        "toRaw": "https://web.archive.org/web/20231206043303/https://developers.googleblog.com/2018/04/google-fonts-launches-korean-support.html",
+        "text": "Google Fonts launches Korean support",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://web.archive.org/web/20240223011828/https://developers.googleblog.com/2018/09/google-fonts-launches-japanese-support.html",
+        "toRaw": "https://web.archive.org/web/20240223011828/https://developers.googleblog.com/2018/09/google-fonts-launches-japanese-support.html",
+        "text": "Google Fonts launches Japanese support",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://www.cpomagazine.com/data-protection/leak-of-ip-address-via-google-fonts-prompts-gdpr-fine/",
+        "toRaw": "https://www.cpomagazine.com/data-protection/leak-of-ip-address-via-google-fonts-prompts-gdpr-fine/",
+        "text": "Leak of IP Address Via Google Fonts Prompts GDPR Fine",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://github.com/pycxxx/fontina",
+        "toRaw": "https://github.com/pycxxx/fontina",
+        "text": "pycxx/fontina",
+        "embed": false,
+        "internal": false
+      }
+    ],
+    "tasks": []
+  },
+  {
     "_id": "89a313a2e5bf929e6f4b0ea01c887aabb0f39672",
     "file_path": "content/podcast/index.mdx",
     "extension": "mdx",
