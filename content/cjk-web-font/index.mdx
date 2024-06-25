@@ -1,5 +1,5 @@
 ---
-title: 中日韓網頁字型
+title: 字體切片
 date: 2024-06-23T11:33:51.185Z
 tags:
   - webfont
@@ -48,3 +48,8 @@ Google Fonts 的問題：
 那我們要怎麼得到文字的使用頻率呢？其實我們不需要知道，直接參考 Google Fonts 提供的 CSS 檔案，我們就可已知道 Google 對各語言字體的切片方式。麻煩的事情 Google 處理掉了，我們只需要負責切片、產生 CSS 檔案就好了。
 
 細節直接看程式碼比較清楚：[pycxx/fontina](https://github.com/pycxxx/fontina)
+
+## 補充
+
+* [Subsetting Web Fonts](https://support.monotype.com/en/articles/7859214-subsetting-web-fonts)：Monotype 也採用類似 Google Fonts 的作法
+* [unicode-range](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range)

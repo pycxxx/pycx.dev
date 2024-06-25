@@ -129,7 +129,7 @@
     "url_path": "cjk-web-font",
     "filetype": null,
     "metadata": {
-      "title": "中日韓網頁字型",
+      "title": "字體切片",
       "date": "2024-06-23T11:33:51.185Z",
       "tags": [
         "webfont",
@@ -182,6 +182,22 @@
         "to": "https://github.com/pycxxx/fontina",
         "toRaw": "https://github.com/pycxxx/fontina",
         "text": "pycxx/fontina",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://support.monotype.com/en/articles/7859214-subsetting-web-fonts",
+        "toRaw": "https://support.monotype.com/en/articles/7859214-subsetting-web-fonts",
+        "text": "Subsetting Web Fonts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "cjk-web-font/index.mdx",
+        "to": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range",
+        "toRaw": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range",
+        "text": "unicode-range",
         "embed": false,
         "internal": false
       }
