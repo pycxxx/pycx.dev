@@ -1,0 +1,24 @@
+baseURL = 'https://pycx.dev'
+title = 'PYC'
+author = 'PYC'
+theme = 'black-and-light'
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+
+[params]
+sitename = "PYC"
+
+[languages]
+	[languages.en]
+		disabled = false
+		languageCode = 'en-US'
+		languageName = 'English'
+		weight = 0
+
+	[languages.zh-tw]
+		disabled = false
+		languageCode = 'zh-TW'
+		languageName = '中文'
+		weight = 1
