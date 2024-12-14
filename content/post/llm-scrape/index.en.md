@@ -15,8 +15,9 @@ After a few days of thinking, I came up with an idea: applying LLMs to web scrap
 
 I searched the topic on the internet and found that many people have similar thoughts about it:
 
-Web page structures change frequently, making LLMs a good approach for web scraping.
-However, if we use LLMs every time we scrape web content, the process will be slow, and the cost will be high. It's better to use LLMs to generate scraping programs and then use the generated programs to scrape web content.
+- Web page structures change frequently, making LLMs a good approach for web scraping.
+- However, if we use LLMs every time we scrape web content, the process will be slow, and the cost will be high. It's better to use LLMs to generate scraping programs and then use the generated programs to scrape web content.
+
 In this experiment, I only completed the first part. I plan to find time to work on the second part later.
 
 ## Related Projects Worth Exploring
