@@ -11,7 +11,7 @@ Here are some key aspects I want to evaluate:
 
 1. The size of models that can be used with Mediapipe
 2. The time required to load a model
-3. The response time for answering questions uestions
+3. The response time for answering questions
 
 ## How large are the models that can be used with Mediapipe?
 
