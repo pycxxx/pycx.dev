@@ -1,6 +1,5 @@
 +++
 date = '2025-03-22T17:19:12+08:00'
-draft = true
 title = 'Mediapipe LLM Inference on the Web'
 tags = ['dev']
 +++
